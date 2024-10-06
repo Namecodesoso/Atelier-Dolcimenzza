@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Produits</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Assure-toi d'avoir le bon chemin -->
+</head>
+<body>
+    <header>
+        <h1>Nos Produits</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="panier.html">Panier</a> <!-- Lien vers la page panier -->
+        </nav>
+    </header>
+    <main>
+        <h2>Liste des Produits</h2>
+        <div class="produit">
+            <h3>Sac à dos</h3>
+            <img src="images/sac-a-dos.jpg" alt="Sac à dos" />
+            <p>Description du sac à dos.</p>
+            <a href="panier.html" class="ajouter-panier">Ajouter au panier</a>
+        </div>
+        <div class="produit">
+            <h3>Banane</h3>
+            <img src="images/banane.jpg" alt="Banane" />
+            <p>Description de la banane.</p>
+            <a href="panier.html" class="ajouter-panier">Ajouter au panier</a>
+        </div>
+        <!-- Ajoute d'autres produits ici -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Mon Site</p>
+    </footer>
+</body>
+</html>
